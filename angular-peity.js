@@ -37,21 +37,21 @@ var buildChartDirective = function ( chartType ) {
 };
 
 
-angularPeity.directive( 'pieChart', function () {
+angularPeity.directive( 'peityPieChart', function () {
 
 	return buildChartDirective( "pie" );
 
 } );
 
 
-angularPeity.directive( 'barChart', function () {
+angularPeity.directive( 'peityBarChart', function () {
 
 	return buildChartDirective( "bar" );
 
 } );
 
 
-angularPeity.directive( 'lineChart', function () {
+angularPeity.directive( 'peityLineChart', function () {
 
 	return buildChartDirective( "line" );
 
